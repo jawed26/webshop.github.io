@@ -1,0 +1,75 @@
+@media (max-width: 1199px){
+    h1{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:1030px){
+    /* Home Banner CSS  */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 65% center;
+        min-height: 550px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-80%, -50%);
+    }
+    
+}
+@media (max-width: 991px){
+    h2{
+        font-family: 30px;
+    }
+    h3{
+        font-family: 20px;
+    }
+    .header_wrapper .navbar-collapse{
+        margin-top: -2px;
+    }
+    .header_wrapper .menu-navbar{
+        text-align: center;
+        background-color: #fff;
+        padding-bottom: 15px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-66%, -50%)
+    }
+}
+
+@media (max-width: 767px){
+    h1{
+        font-size: 25px;
+        line-height: 48px;
+    }
+    p{
+        font-size: 14px;
+    }
+    /* Navbar  */
+    .header_wrapper .navbar-brand{
+        font-size: 20px
+    }
+    /* Home CSS  */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position:50% center;
+        min-height: 450px;
+    }
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        width:100%;
+        transform:translate(-50%, -50%);
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 20px;
+    }
+}
+
+/* @media (max-width:330px){ 
+    Home CSS 
+  .home .home-banner .home-banner-text h2{
+        font-size: 10px;
+    }  */
