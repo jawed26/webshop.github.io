@@ -352,6 +352,8 @@ p{
     border-color: var(--primary-color);
     box-shadow: none;
 }
+.login-form{
+    padding: 100px 100px;
 
 /* Footer CSS  */
 .copyright p,
