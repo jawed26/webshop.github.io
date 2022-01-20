@@ -353,9 +353,11 @@ p{
     box-shadow: none;
 }
 .login-form{
-    padding: 15px 14px 15px 15px;
+    margin: 110px 80px;
 }
-
+.register-form{
+    margin: 80px 0 50px;
+}
 /* Footer CSS  */
 .copyright p,
 .copyright a{
